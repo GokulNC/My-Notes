@@ -27,3 +27,10 @@ $ git config --global core.editor "nano"
 $ git commit --amend --author "Gokul NC <gokulnc@ymail.com>"
 ```
 (For previous commits, [do this](https://stackoverflow.com/a/28845565/5002496))
+
+### Discard unstaged changes
+```console
+$ git checkout -- path/to/file/to/revert
+$ git checkout -- . #For all files
+```
+
