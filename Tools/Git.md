@@ -34,3 +34,8 @@ $ git checkout -- path/to/file/to/revert
 $ git checkout -- . #For all files
 ```
 
+### Managing Remotes
+```
+$ git remote add origin https://github.com/user/repo.git
+$ git remote -v # List all remotes
+```
