@@ -16,6 +16,7 @@ $ git merge --no-ff dev
 ```console
 $ git config --global core.fileMode false
 ```
+If it doesn't reflect in current repo, manually do using `nano .git/config`
 
 ### Change git editor
 ```console
