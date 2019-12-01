@@ -29,6 +29,11 @@ $ git commit --amend --author "Gokul NC <gokulnc@ymail.com>"
 ```
 (For previous commits, [do this](https://stackoverflow.com/a/28845565/5002496))
 
+### Change both author and commiter of last commit
+```console
+$ git -c user.name="Gokul NC" -c user.email='gokulnc@ymail.com' commit --amend --reset-author
+```
+
 ### Discard unstaged changes
 ```console
 $ git checkout -- path/to/file/to/revert
