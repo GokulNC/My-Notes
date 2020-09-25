@@ -45,3 +45,10 @@ $ git checkout -- . #For all files
 $ git remote add origin https://github.com/user/repo.git
 $ git remote -v # List all remotes
 ```
+
+### Delete last commit without losing changes:
+ 
+ ```
+ $ git reset HEAD~
+ ```
+ 
